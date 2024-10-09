@@ -3,11 +3,13 @@
 @tailwind utilities;
 
 html, body { height: 100%;}
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 
 .bg-main{
   @apply bg-gradient-to-r from-blue-700 via-blue-800 to-gray-900 text-white p-4
 }
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.spacer{
+  flex: 1 1 auto;
+}
