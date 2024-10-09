@@ -1,6 +1,6 @@
-<div class="h-full text-md">
+<div class="h-full">
   <div class="flex flex-col p-4 justify-between">
-    <span class="text-6xl text-slate-400 mb-4">Login</span>
+    <span class="text-5xl text-slate-400 mb-4">Login</span>
     <div class="mt-8 flex flex-col">
       <mat-form-field>
           <mat-label>User:</mat-label>
@@ -11,7 +11,7 @@
         <input type="password" matInput placeholder="input your password">
       </mat-form-field>
     </div>
-    <button mat-flat-button class="mt-20">Login<mat-icon>login</mat-icon></button>
+    <button mat-flat-button class="mt-20" routerLink="/heroes/">Login<mat-icon>login</mat-icon></button>
     <div class="flex justify-end">
       <a routerLink="/auth/signup" class="hover:underline hover:underline-offset-4 hover:text-blue-700 mt-4">Don´t have an account?</a>
     </div>
