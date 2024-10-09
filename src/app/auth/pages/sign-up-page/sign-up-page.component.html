@@ -1,1 +1,20 @@
-<p>sign-up-page works!</p>
+<div class="h-full text-md">
+  <div class="flex flex-col p-4 justify-between">
+    <span class="text-5xl text-slate-400 mb-4">Register</span>
+    <div class="mt-8 flex flex-col">
+      <mat-form-field>
+          <mat-label>Name:</mat-label>
+          <input type="text" matInput placeholder="input your name" required>
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>User:</mat-label>
+        <input type="text" matInput placeholder="input your username">
+    </mat-form-field>
+      <mat-form-field>
+         <mat-label>Password:</mat-label>
+        <input type="password" matInput placeholder="input your password">
+      </mat-form-field>
+    </div>
+    <button mat-flat-button class="mt-20" routerLink="/auth/login">Create<mat-icon>save</mat-icon></button>
+  </div>
+</div>
