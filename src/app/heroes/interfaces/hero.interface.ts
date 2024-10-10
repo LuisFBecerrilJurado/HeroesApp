@@ -10,6 +10,7 @@ export interface Hero {
   amount?:           number;
   localDate?:        Date;
   idUser?:           string;
+  alt_img?:          string;
 }
 
 export enum Publisher {
