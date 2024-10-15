@@ -1,1 +1,38 @@
-<p>hero-page works!</p>
+  <ng-template #isLoading>
+    <div class="flex h-svh justify-center items-center">
+      <mat-grid-list cols="1">
+        <div id="page">
+            <div id="container">
+                <div id="ring"></div>
+                <div id="ring"></div>
+                <div id="ring"></div>
+                <div id="ring"></div>
+                <div id="h3">loading</div>
+            </div>
+        </div>
+      </mat-grid-list>
+    </div>
+  </ng-template>
+
+  <div *ngIf="hero; else isLoading" class="grid grid-cols-1 md:grid-cols-3 gap-x-4">
+    <mat-card>
+      <mat-card-header>
+        <mat-card-title>{{hero.alter_ego}}</mat-card-title>
+        <mat-card-subtitle>{{hero.superhero}}</mat-card-subtitle>
+      </mat-card-header>
+      <img [src]="hero | heroImage" [alt]="hero.superhero" mat-card-image class="aspect-auto w-fit h-5/6 mx-auto">
+    </mat-card>
+    <mat-card class="col-span-2">
+      <mat-card-header>
+        <mat-card-title>Info:</mat-card-title>
+        <mat-card-subtitle>{{hero.superhero}}</mat-card-subtitle>
+      </mat-card-header>
+      <mat-card-content>
+        <mat-list-item>{{hero.first_appearance}}</mat-list-item>
+        <mat-list-item>{{hero.characters}}</mat-list-item>
+        <mat-list-item>{{hero.publisher}}</mat-list-item>
+        <mat-list-item>{{hero.alter_ego}}</mat-list-item>
+        <button mat-button (click)="goBack()">Back</button>
+      </mat-card-content>
+    </mat-card>
+  </div>
