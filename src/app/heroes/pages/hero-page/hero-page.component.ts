@@ -22,7 +22,7 @@ export class HeroPageComponent implements OnInit {
   ngOnInit(): void {
     this.activatedRoute.params
       .pipe(
-        delay(100),
+        delay(500),
         switchMap(({ id }) => this.heroesService.getHeroById(id)),)
       .subscribe(hero => {
         if (!hero) return this.router.navigate(['/heroes/list']);
