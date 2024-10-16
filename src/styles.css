@@ -103,4 +103,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     transform: rotateX(70deg) rotateZ(630deg);
   }
 }
-/* Improving visualization in light mode */
+
+.bg-content{
+  @apply bg-gradient-to-r from-blue-700 via-white to-red-700 rounded-xl
+}
