@@ -1,4 +1,4 @@
-<mat-sidenav-container fullscreen class="w-screen mx-auto bg-transparent">
+<mat-sidenav-container fullscreen class="w-screen">
   <mat-sidenav #sidenav mode="push" [ngStyle]="{witdh: '250px'}">
     <mat-toolbar color="warn">
       <span>Heroes</span>
@@ -17,14 +17,14 @@
       </mat-list-item>
     </mat-nav-list>
   </mat-sidenav>
-  <div class="flex justify-between items-center mt-1 bg-transparent">
+  <div class="flex justify-between items-center z-10 bg-content sticky top-0">
     <button mat-icon-button (click)="sidenav.toggle()">
       <mat-icon>menu</mat-icon>
     </button>
-    <span class="spacer"></span>
-    <button mat-button><mat-icon>logout</mat-icon>Logout</button>
+    <mat-label class="text-5xl font-bold">HEROES APP</mat-label>
+    <button mat-raised-button><mat-icon>logout</mat-icon>Logout</button>
   </div>
-  <div class="px-12">
+  <div class="justify-start">
     <router-outlet></router-outlet>
   </div>
 </mat-sidenav-container>
