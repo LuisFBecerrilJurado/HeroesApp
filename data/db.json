@@ -13,15 +13,8 @@
       "publisher": "DC Comics",
       "alter_ego": "Bruce Wayne",
       "first_appearance": "Detective Comics #27",
-      "characters": "Bruce Wayne"
-    },
-    {
-      "id": "dc-superman",
-      "superhero": "Superman",
-      "publisher": "DC Comics",
-      "alter_ego": "Kal-El",
-      "first_appearance": "Action Comics #1",
-      "characters": "Kal-El"
+      "characters": "Bruce Wayne",
+      "alt_img": null
     },
     {
       "id": "dc-flash",
@@ -30,14 +23,6 @@
       "alter_ego": "Jay Garrick",
       "first_appearance": "Flash Comics #1",
       "characters": "Jay Garrick, Barry Allen, Wally West, Bart Allen"
-    },
-    {
-      "id": "dc-green",
-      "superhero": "Green Lantern",
-      "publisher": "DC Comics",
-      "alter_ego": "Alan Scott",
-      "first_appearance": "All-American Comics #16",
-      "characters": "Alan Scott, Hal Jordan, Guy Gardner, John Stewart, Kyle Raynor, Jade, Sinestro, Simon Baz"
     },
     {
       "id": "dc-arrow",
@@ -166,6 +151,24 @@
       "alter_ego": "Norrin Radd",
       "first_appearance": "The Fantastic Four #48",
       "characters": "Norrin Radd"
+    },
+    {
+      "id": "eOFHqRj",
+      "superhero": "Spawn",
+      "publisher": "DC Comics",
+      "alter_ego": "Albert Francis \"Al\" Simmons",
+      "first_appearance": "Spawn #1",
+      "characters": "Albert Francis \"Al\" Simmons",
+      "alt_img": "https://www.syfy.com/sites/syfy/files/b-king-spawn-1-cover.jpg"
+    },
+    {
+      "id": "P40n-uk",
+      "superhero": "Aquaman",
+      "publisher": "DC Comics",
+      "alter_ego": "Arthur Curry",
+      "first_appearance": "More Fun Comics, #73",
+      "characters": "Arthur Curry",
+      "alt_img": "https://upload.wikimedia.org/wikipedia/en/9/9d/Aquaman_Rebirth_1.png"
     }
   ]
 }
