@@ -5,11 +5,6 @@ export interface Hero {
   alter_ego?:        string;
   first_appearance?: string;
   characters?:       string;
-  type?:             string;
-  description?:      string;
-  amount?:           number;
-  localDate?:        Date;
-  idUser?:           string;
   alt_img?:          string;
 }
 
